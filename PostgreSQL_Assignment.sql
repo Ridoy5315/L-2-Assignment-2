@@ -50,28 +50,27 @@ INSERT INTO sightings (ranger_id, species_id, sighting_time, location, notes) VA
 (1, 1, '2025-06-01 08:30:00', 'Northern Mountains', 'Spotted near the cliffs'),
 (2, 3, '2025-06-02 10:00:00', 'Eastern Forest', 'Feeding observed'),
 (3, 6, '2025-06-03 14:15:00', 'Riverbank', 'Group of 5 observed'),
-(1, 4, '2025-06-04 16:45:00', 'Wetlands', 'Nest nearby'),
+(1, 4, '2025-06-02 16:45:00', 'Wetlands', 'Nest nearby'),
 (4, 5, '2025-06-05 09:00:00', 'Southern Plains', NULL),
 (2, 6, '2025-06-06 11:30:00', 'Coastal Region', 'Single adult spotted'),
 (6, 7, '2025-06-07 13:00:00', 'Grasslands', 'Juveniles seen playing'),
-(4, 8, '2025-06-08 15:20:00', 'Coral Reefs', 'Healthy population'),
+(4, 8, '2025-06-06 15:20:00', 'Coral Reefs', 'Healthy population'),
 (1, 3, '2025-06-09 07:50:00', 'Swamp Area', 'Tracks found nearby'),
 (2, 5, '2025-06-10 12:10:00', 'Island', 'No sightings for a week prior'),
-(3, 1, '2025-06-11 09:40:00', 'Mountain Pass', 'Spotted in dense foliage'),
-(6, 3, '2025-06-12 14:05:00', 'River Delta', 'Healthy population'),
-(1, 2, '2025-06-13 10:25:00', 'Forest Edge', 'Group moving east'),
-(2, 4, '2025-06-14 16:00:00', 'Marshlands', 'Nest disturbed'),
-(3, 10, '2025-06-15 08:15:00', 'Open Savannah', 'Two adults together'),
-(4, 2, '2025-06-16 11:55:00', 'Beachfront', 'Tracks indicate multiple individuals'),
-(1, 5, '2025-06-17 13:30:00', 'Grassland Hills', 'One adult seen'),
-(2, 8, '2025-06-18 15:45:00', 'Reef Zone', 'Healthy coral sighting'),
-(3, 4, '2025-06-19 07:10:00', 'Swamp Area', NULL),
-(4, 10, '2025-06-20 12:50:00', 'Island Shore', 'No recent sightings before this');
+(3, 1, '2025-06-10 09:40:00', 'Mountain Pass', 'Spotted in dense foliage'),
+(6, 3, '2025-06-02 14:05:00', 'River Delta', 'Healthy population'),
+(1, 2, '2025-06-01 10:25:00', 'Forest Edge', 'Group moving east'),
+(2, 4, '2025-06-09 16:00:00', 'Marshlands', 'Nest disturbed'),
+(3, 10, '2025-05-15 08:15:00', 'Open Savannah', 'Two adults together'),
+(4, 2, '2025-06-06 11:55:00', 'Beachfront Pass', 'Tracks indicate multiple individuals'),
+(1, 5, '2025-06-07 13:30:00', 'Grassland Hills', 'One adult seen'),
+(2, 8, '2025-05-18 15:45:00', 'Reef Zone', 'Healthy coral sighting'),
+(3, 4, '2025-06-10 07:10:00', 'Swamp Area', NULL),
+(4, 10, '2025-05-20 12:50:00', 'Island Shore', 'No recent sightings before this');
 
 SELECT * FROM rangers;
 SELECT * FROM species;
 SELECT * FROM sightings;
-
 
 -- Problem 1
 INSERT INTO rangers (name, region) VALUES ('Darek Fox', 'Costal Plains');
